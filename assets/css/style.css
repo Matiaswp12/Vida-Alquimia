@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navegador */
+
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #ffe1ae;
+  
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
