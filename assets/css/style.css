@@ -2,17 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Petemoss', cursive;
 }
 
-/* Navegador */
-
-.nav {
+.headerImg {
+    background-image: url(../Img/prueebapaginas.jpeg);
+    background-size: cover;
+    width: auto;
+    height: 300px;
     display: flex;
-    width: 100%;
-    background-color: #ffe1ae;
-  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.nav ul {
+.headerImg h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* INICIO */
+.producInicio{
     display: flex;
-    list-style: none;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* PRODUCTOS */
+
+.containerProdc {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: "auto, auto   ";
+    grid-template-areas: "section section"
+                         "aside main";
+    gap: 15px;
+    margin: 10px;
+}
+    .containerCard{
+        grid-area: main;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card{
+        margin: 5px;
+    }
+    .sectionProd {
+        grid-area: section;
+        background-color: #8c5546;
+        width: 100%;
+        height: 300px;
+    }
+    .asideProd {
+        grid-area: aside;
+        background-color: aqua;
+        width: min-content;
+    }
+
+/* KIT */
+
+
+
+
+/* FOOTER */
+
+.bg-color {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
 }
