@@ -12,7 +12,7 @@
     </style>
     <title>Contacto</title>
 </head>
-<body class="comtainerKits" >
+<body class="container-fluid col ">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,27 +44,31 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, voluptate?</p>
         </div>
     </header>
-    <section>
-    </section>
-    <main class="col mainContact">
-        <form class="formulario col-6">
-            <div class="datos" action="Contactos.php" method="post">
-                <input type="name" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su nombre." required>
-                <input type="apellido" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su apellido." required>
-                <input type="telefono" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su telefono." required>
-                <input type="email" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su e-mail." required>
-            </div>
-            <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                <label for="floatingTextarea">Deja tu mensaje</label>
-            </div>
-            <div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="reset" class="btn btn-primary">Limpiar</button>
-            </div>
-        </form>
-    </main>
-    <aside>
+    <div class="containerContacto col">
+        <section class="historia col-5 text-center">
+            <h4>Nosotros</h4>
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat minus molestias totam alias id nisi, perspiciatis temporibus culpa earum deleniti, magni quos repellendus ab numquam iste debitis blanditiis voluptatibus saepe consequuntur? Tempora assumenda, facere amet similique necessitatibus minima cupiditate laborum incidunt mollitia maiores esse doloremque provident molestiae in quisquam aspernatur. Cumque voluptatem laudantium aut commodi repellendus, blanditiis illo quibusdam ipsum quis ab sapiente adipisci beatae illum quae odit magni nostrum impedit ipsa aperiam. Tempore nisi fugiat voluptate laudantium deleniti non obcaecati! Voluptatum sunt aperiam sint. Voluptatibus architecto deleniti totam enim earum temporibus cumque vitae laudantium quos consequatur alias corrupti odit aut, magni nesciunt nam dolores impedit recusandae commodi, neque adipisci nobis obcaecati. Laboriosam aliquam alias aut autem accusamus, nobis perferendis veritatis similique voluptate eos temporibus quae laudantium voluptatem, vel recusandae et sit necessitatibus, doloremque eveniet animi! Natus expedita, quos omnis officia aspernatur harum ex quam modi, accusamus quibusdam ullam doloremque magni eos ipsum pariatur at nam! Magnam architecto adipisci aspernatur accusamus dolorum ducimus quidem laudantium corporis labore tenetur! Obcaecati illum aut repudiandae omnis sunt placeat, nostrum adipisci, beatae provident nobis quasi debitis voluptates. Laborum consequatur voluptate doloremque illo hic voluptatum amet praesentium quas provident dolorem nostrum, sapiente iure quaerat dolores vero ipsa? Placeat incidunt tempore omnis, quas asperiores cum corrupti odio possimus? Eveniet, deserunt ad praesentium excepturi eos illum animi officiis eligendi ab cum iure dolorum, optio veritatis! Animi provident quasi fugiat illum quae amet porro consectetur repellendus accusantium excepturi maxime dicta doloribus fuga unde eligendi possimus et, libero optio reprehenderit rerum assumenda ut sequi. Nisi ea officiis omnis voluptate, repellat harum officia molestias, ducimus qui quaerat doloremque neque sunt nesciunt quo deleniti exercitationem, fugit consequatur repudiandae et beatae praesentium voluptas dolor. Soluta quia voluptatum, dolor in qui quaerat fuga! Culpa sequi porro quibusdam quam voluptas sapiente! Nesciunt, pariatur nulla.</span>
+        </section>
+        <main class="col-6 mainContact">
+            <form class="formulario col-6">
+                <div class="datos" action="Contactos.php" method="post">
+                    <input type="name" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su nombre." required>
+                    <input type="apellido" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su apellido." required>
+                    <input type="telefono" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su telefono." required>
+                    <input type="email" class="form-contac" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su e-mail." required>
+                    <textarea class="form-control" placeholder="Deja tu mensaje." id="floatingTextarea"></textarea>
+                </div>  
+                <div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Limpiar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <hr>
+    <aside class="aside col-12">
+        <h3>Nos encontras en:</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7294870655255!2d-58.49033444922166!3d-34.58571076395662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb64052ccedb7%3A0x66e010c3dc77eda5!2sAv.%20de%20los%20Constituyentes%204000%2C%20C1431EXR%20San%20Mart%C3%ADn%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657062954810!5m2!1ses-419!2sar" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </aside>
     <footer class="bg-color py-1">
         <div class="row d-flex justify-content-center align-items-center">
